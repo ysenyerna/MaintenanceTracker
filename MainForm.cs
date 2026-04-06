@@ -15,10 +15,7 @@ public partial class MainForm : Form
 		try {ctx.Database.Migrate(); }
 		catch {ctx.Database.EnsureCreated();}
 
-
-
 	}
-
 
 
 }
